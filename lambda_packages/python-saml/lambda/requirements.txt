@@ -1,0 +1,3 @@
+-e git://github.com/iuliachiriac/lambda-packages.git@saml#egg=lambda-packages
+zappa
+python-saml
