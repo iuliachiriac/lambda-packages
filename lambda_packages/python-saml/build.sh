@@ -13,7 +13,7 @@ yum update -y
 yum groupinstall -y "Development Tools"
 
 echo "do dependcy install"
-yum install libffi-devel openssl-devel
+yum install libxml2-devel libxslt-devel
 
 ENV="env-${PACKAGE}-${VERSION}"
 echo "make ${ENV}"
